@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+.wrap {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .App-logo {
@@ -35,4 +37,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid silver;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+img {
+  height: 300px;
+}
+
+p {
+  width: 299px
+}
+
+.block {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  height: 50px;
+  background: silver;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: 2px solid grey;
 }
