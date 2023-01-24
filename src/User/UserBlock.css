@@ -1,0 +1,39 @@
+.user-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.user-block {
+    min-width: 220px;
+    width: 420px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow:0 1px 1px rgba(0,0,0,0.15),0 2px 2px rgba(0,0,0,0.15),0 4px 4px rgba(0,0,0,0.15),0 8px 8px rgba(0,0,0,0.15);
+}
+
+.user-info {
+    height: 150px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #313030;
+    color: #e7e7e7;
+    transition: 300ms;
+}
+
+button:active {
+    background: grey;
+    transition: none;
+}
